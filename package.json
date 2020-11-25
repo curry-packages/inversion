@@ -1,0 +1,24 @@
+{
+    "name": "inversion",
+    "version": "3.0.0",
+    "author": "Michael Hanus <mh@informatik.uni-kiel.de>",
+    "synopsis": "Utility operations to invert functions",
+    "category": [ "Logic", "Programming" ],
+    "license": "BSD-3-Clause",
+    "licenseFile": "LICENSE",
+    "dependencies": {
+        "base" : ">= 3.0.0, < 4.0.0"
+    },
+    "exportedModules": [
+        "Data.Function.Inversion"
+    ],
+    "testsuite": {
+        "src-dir": "src",
+        "options": "--nosource",
+        "modules": [ "Data.Function.Inversion" ]
+    },
+    "source": {
+      "git": "https://git.ps.informatik.uni-kiel.de/curry-packages/inversion.git",
+      "tag": "$version"
+    }
+}
