@@ -18,7 +18,7 @@
         "modules": [ "Data.Function.Inversion" ]
     },
     "source": {
-      "git": "https://git.ps.informatik.uni-kiel.de/curry-packages/inversion.git",
+      "git": "https://github.com/curry-packages/inversion.git",
       "tag": "$version"
     }
 }
